@@ -1,0 +1,22 @@
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+
+.list__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.list__img {
+    max-width: 100%;
+}
